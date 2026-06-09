@@ -108,8 +108,8 @@ canvas#scratchCanvas { position:absolute; inset:0; cursor:crosshair; touch-actio
 /* PAGE 4 */
 #p4 { gap:1.2rem; }
 .video-wrap { width:100%; max-width:640px; border-radius:24px; overflow:hidden; box-shadow:0 12px 50px rgba(176,101,208,0.2); }
-video { width:100%; display:block; }
-
+video { width:100%; max-height:65vh; display:block; object-fit:contain; background:#000; }
+  
 /* MUSIC */
 .music-bar {
   position:fixed; bottom:1.5rem; right:1.5rem; z-index:100;
@@ -168,7 +168,7 @@ video { width:100%; display:block; }
 </div>
 
 <!-- PAGE 2 -->
-<div class="page" id="p2">
+<div class="page" id="p4" style="justify-content:center; padding:1.5rem 1rem;">
   <div class="letter-card">
     <div class="letter-top">ถึง Nanny ที่รัก 💜</div>
     <div class="letter-body">วันนี้เป็นวันเกิดของเธอแล้วนะ
